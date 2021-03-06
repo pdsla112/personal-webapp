@@ -10,11 +10,11 @@ class Home extends React.Component {
     render() {
         return (
             <div>
-                <Header/>
-                <HomeTopBox/>
-                <HomeSecondBox/>
-                <HomeThirdBox/>
-                <HomeFourthBox/>
+                <Header/> 
+                <HomeTopBox/> {/* Basic introduction section */}
+                <HomeSecondBox/> {/* "Why I am ready to work for you" box */}
+                <HomeThirdBox/> {/* "My Projects" section */}
+                <HomeFourthBox/> {/* "My Hobbies" section */}
                 <FixedBottomDecoration/>
             </div>
         );
