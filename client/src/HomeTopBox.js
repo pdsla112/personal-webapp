@@ -4,7 +4,7 @@ import HomeCarousel from "./HomeCarousel";
 class HomeTopBox extends React.Component {
     render() {
         return (
-            <div>
+            <div id="home-top-box">
                 <HomeCarousel/>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
