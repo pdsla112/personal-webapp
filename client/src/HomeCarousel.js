@@ -2,9 +2,9 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import homeCarousel1 from "./assets/home-carousel-1.jpeg";
-import homeCarousel2 from "./assets/home-carousel-2.jpeg";
-import homeCarousel3 from "./assets/home-carousel-3.jpeg";
+import homeCarousel1 from "./images/home-carousel-1.jpeg";
+import homeCarousel2 from "./images/home-carousel-2.jpeg";
+import homeCarousel3 from "./images/home-carousel-3.jpeg";
 
 class HomeCarousel extends React.Component {
     render() {
@@ -23,13 +23,13 @@ class HomeCarousel extends React.Component {
         return (
             <Slider {...settings} id="home-carousel">
                 <div>
-                    {homeCarousel1}
+                    <img src={homeCarousel1}/>
                 </div>
                 <div>
-                    {homeCarousel2}
+                    <img src={homeCarousel2}/>
                 </div>
                 <div>
-                    {homeCarousel3}
+                    <img src={homeCarousel3}/>
                 </div>
             </Slider>
         );

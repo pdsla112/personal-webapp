@@ -1,0 +1,39 @@
+.fixed-bottom-decoration-box {
+    display: grid;
+    width: 100vw;
+    position: sticky;
+    grid-template-columns: 0.9fr 0.1fr;
+    grid-template-rows: auto auto;
+    bottom: 0;
+    /* justify-content: space-around; */
+}
+
+/* .fixed-bottom-decoration-wrapper {
+    grid-
+} */
+
+.wave-box {
+    grid-column: 1 / 3;
+    grid-row: 2 / 3;
+    width: 100vw;
+    display: flex;
+}
+
+.wave-img {
+    width: 100%;
+    height: 12em;
+    z-index: 2;
+    justify-content: flex-end;
+    margin-bottom: -5em;
+}
+
+.tree-box {
+    grid-column: 2 / 3;
+    grid-row: 1 / 3;
+    display: flex;
+}
+
+.tree-img {
+    height: 15em;
+    z-index: 1;
+}
