@@ -1,0 +1,23 @@
+#home-second-box {
+    position: relative;
+    background-color: blue;
+    width: 100vw;
+    padding-bottom: 30em;
+    /* margin-top: 100em; */
+}
+
+.home-second-box-heading {
+    position: absolute;
+    top: 2em;
+    margin-left: 18em;
+    font-size: 2em;
+}
+
+.home-second-box-txt {
+    position: absolute;
+    top: 10em;
+    width: 50em;
+    line-height: 2;
+    margin-left: 25em;
+
+}

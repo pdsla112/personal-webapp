@@ -1,17 +1,20 @@
 #home-top-box {
     width: 100vw;
+    position: relative;
+    background-color: purple;
+    padding-bottom: 10em;
 }
 
 .home-top-box-txt {
     position: absolute;
     /* top: 15em; */
     /* right: 10em; */
-    display: inline-block;
+    /* display: inline-block; */
     /* margin-left: 50em;
     margin-top: 20em; */
-    right: 0;
-    top: 15em;
-    width: 30em;
+    top: 5em;
+    margin-left: 50em;
+    width: 25em;
     line-height: 2;  /* Recommended value is 1.6 */
     font-size: 1.2em;
 }
