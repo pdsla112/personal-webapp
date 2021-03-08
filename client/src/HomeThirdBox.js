@@ -4,8 +4,8 @@ class HomeThirdBox extends React.Component {
     render() {
         return (
             <div id="home-third-box">
-                <h2>My Projects</h2>
-                <h3>Web Applications That I Developed</h3>
+                <h2 className="home-third-box-heading">My Projects</h2>
+                <h3 className="home-third-box-subheading">Web Applications That I Developed</h3>
                 <ul>
                     <li>This One!</li>
                         <ul>
@@ -18,8 +18,8 @@ class HomeThirdBox extends React.Component {
                             <li>View My Story Behind This App</li>
                         </ul>
                 </ul>
-                <h3>A Java Github Repository That I Have for Learning Algorithms and Data Types</h3>
-                <img></img>
+                <h3 className="home-third-box-heading">A Java Github Repository That I Have for Learning Algorithms and Data Types</h3>
+                <img className="home-third-box-logo"></img>
             </div>
         );
     }
