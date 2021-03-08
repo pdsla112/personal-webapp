@@ -21,15 +21,15 @@ class HomeCarousel extends React.Component {
             fade: true
         };
         return (
-            <Slider {...settings} id="home-carousel">
+            <Slider {...settings}>
                 <div>
-                    <img src={homeCarousel1}/>
+                    <img src={homeCarousel1} className="home-carousel-slides"/>
                 </div>
                 <div>
-                    <img src={homeCarousel2}/>
+                    <img src={homeCarousel2} className="home-carousel-slides"/>
                 </div>
                 <div>
-                    <img src={homeCarousel3}/>
+                    <img src={homeCarousel3} className="home-carousel-slides"/>
                 </div>
             </Slider>
         );

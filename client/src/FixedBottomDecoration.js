@@ -5,7 +5,7 @@ import tree from "./images/pine-2.png";
 class FixedBottomDecoration extends React.Component {
     render() {
         return (
-            <div className="fixed-bottom-decoration-box">
+            <div id="fixed-bottom-decoration-box">
                 <img src={waves} className="wave-img"/>
                 <img src={tree} className="tree-img"/>
             </div>

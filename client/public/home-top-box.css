@@ -1,0 +1,17 @@
+#home-top-box {
+    width: 100vw;
+}
+
+.home-top-box-txt {
+    position: absolute;
+    /* top: 15em; */
+    /* right: 10em; */
+    display: inline-block;
+    /* margin-left: 50em;
+    margin-top: 20em; */
+    right: 0;
+    top: 15em;
+    width: 30em;
+    line-height: 2;  /* Recommended value is 1.6 */
+    font-size: 1.2em;
+}

@@ -1,0 +1,11 @@
+.home-carousel {
+    position: absolute;
+    width: 40em;
+    margin-left: 15em;
+    margin-top: 5em;
+    display: inline-block;
+}
+
+.home-carousel-slides {
+    width: 100%;
+}
