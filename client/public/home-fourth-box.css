@@ -1,6 +1,13 @@
 #home-fourth-box {
-    background-color: azure;
-    padding-bottom: 10em;
+    position: relative;
+    /* background-color: azure; */
+    background-color: #9ecca4;
+    height: auto;
+    width: 70vw;
+    left: 15vw;
+    top: 10em;
+    margin-bottom: 15em;
+    padding-bottom: 5em;
 }
 
 .home-fourth-box-heading {
