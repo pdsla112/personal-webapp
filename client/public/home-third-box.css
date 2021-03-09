@@ -1,16 +1,22 @@
 #home-third-box {
-    background-color: pink;
+    position: relative;
+    /* background-color: pink; */
+    background-color: #9ecca4;
     padding-bottom: 5em;
+    width: 70vw;
+    left: 15vw;
+    top: 8em;
+    height: auto;
 }
 
 .home-third-box-heading {
-
+    position: absolute;
 }
 
 .home-third-box-subheading {
-
+    position: absolute;
 }
 
 .home-third-box-logo {
-    
+    position: absolute;
 }
