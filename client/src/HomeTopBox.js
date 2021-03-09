@@ -6,6 +6,7 @@ class HomeTopBox extends React.Component {
         return (
             <div id="home-top-box">
                 <HomeCarousel/>
+                <h2 className="home-top-box-heading">MERN Fullstack Developer | Software Engineering Student</h2>
                 <p className="home-top-box-txt">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Cras scelerisque ligula nec libero lobortis, eu ultrices est finibus.
