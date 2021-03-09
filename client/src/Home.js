@@ -9,7 +9,7 @@ import HomeFourthBox from "./HomeFourthBox";
 class Home extends React.Component {
     render() {
         return (
-            <div>
+            <div className="home-box">
                 <Header/> 
                 <HomeTopBox/> {/* Basic introduction section */}
                 <HomeSecondBox/> {/* "Why I am ready to work for you" box */}
