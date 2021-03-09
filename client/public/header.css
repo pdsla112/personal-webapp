@@ -1,6 +1,29 @@
 #header-box {
     background-color: rgba(0,0,0,0.5);
     width: 100%;
-    height: auto;
+    height: 3.5em;
     z-index: 3;
+    position: fixed;
+}
+
+.header-box-title {
+    position: absolute;
+    margin-left: 40vw;
+    font-family: Palatino, "Palatino Linotype";
+    font-size: 4em;
+    color: #bbbfca;
+}
+
+.header-box-navlink-1 {
+    position: absolute;
+    color: #dddddd;
+    right: 12em;
+    top: 1.2em;
+}
+
+.header-box-navlink-2 {
+    position: absolute;
+    color: #dddddd;
+    right: 2em;
+    top: 1.2em;
 }

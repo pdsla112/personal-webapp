@@ -4,10 +4,9 @@ class Header extends React.Component {
     render() {
         return (
             <div id="header-box">
-                <h1>Phillip La</h1>
-                <p>Why I Am Prepared for Your Opportunity</p>
-                <p>Personal Projects</p>
-                <p>Extra Hobbies</p>
+                <h1 className="header-box-title">PHILLIP LA</h1>
+                <p className="header-box-navlink-1">Why I Am Prepared for Your Opportunity</p>
+                <p className="header-box-navlink-2">Personal Projects</p>
             </div>
         );
     }
