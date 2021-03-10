@@ -1,14 +1,22 @@
 import React from "react";
 import {Switch, Route} from "react-router-dom";
 import Home from "./Home";
+import Ready from "./Ready";
+import Projects from "./Projects";
 
 class App extends React.Component {
   render() {
     return (
       <div>
         <Switch>
-          <Route to="/">
+          <Route exact path="/">
             <Home/>
+          </Route>
+          <Route exact path="/why-i-am-ready">
+            <Ready/>
+          </Route>
+          <Route exact path="/personal-projects">
+            <Projects/>
           </Route>
         </Switch>
       </div>
