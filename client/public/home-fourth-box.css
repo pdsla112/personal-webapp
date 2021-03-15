@@ -18,17 +18,51 @@
 }
 
 .home-fourth-box-heading {
-
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 2em;
+    margin-top: 2em;
+    margin-bottom: 1.5em;
 }
 
 .home-fourth-box-subheading {
+    margin-right: auto;
+    margin-left: auto;
+    font-weight: bold;
+}
 
+.home-fourth-box-txt-box-left {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-left: 4em;
+    margin-right: 3em;
+}
+
+.home-fourth-box-txt-box-right {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-right: 4em;
+    margin-left: 3em;
 }
 
 .home-fourth-box-txt {
-    
+    margin-top: 3em;
+    text-align: center;
 }
 
+.home-fourth-box-img {
+    width: 40%;
+    margin-right: 2em;
+    margin-bottom: 2em;
+}
+
+.home-fourth-box-img-left {
+    width: 40%;
+    margin-left: 2em;
+    margin-bottom: 2em;
+}
 
 @media only screen and (max-width: 1190px) {
     #home-fourth-box {
