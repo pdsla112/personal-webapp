@@ -2,12 +2,13 @@
     position: relative;
     /* background-color: blue; */
     background-color: #9ecca4;
-    width: 70vw;
+    width: 74em;
     padding-bottom: 30em;
     /* margin-top: 100em; */
     height: auto;
     top: 6em;
-    left: 15vw;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .home-second-box-heading {

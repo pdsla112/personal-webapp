@@ -3,8 +3,9 @@
     /* background-color: pink; */
     background-color: #9ecca4;
     padding-bottom: 5em;
-    width: 70vw;
-    left: 15vw;
+    width: 74em;
+    margin-left: auto;
+    margin-right: auto;
     top: 8em;
     height: auto;
 }

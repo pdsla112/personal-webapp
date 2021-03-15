@@ -4,9 +4,17 @@
     height: 3.5em;
     z-index: 3;
     position: fixed;
+    top: 0;
 }
 
-.header-box-github-logo {
+#header-content-wrapper {
+    position: relative;
+    width: 100%;
+    height: 3.5em;
+    margin: 0;
+}
+
+/* .header-box-github-logo {
     position: absolute;
     width: 2em;
     left: 2em;
@@ -25,16 +33,17 @@
     width: 2em;
     left: 10em;
     top: 0.5em;
-}
+} */
 
 .header-box-title {
     position: absolute;
-    margin-left: 40vw;
+    margin-left: auto;
+    margin-right: auto;
     font-family: Palatino, "Palatino Linotype";
     font-size: 4em;
     color: #bbbfca;
 }
-
+/* 
 .header-box-navlink-1 {
     position: absolute;
     color: #dddddd;
@@ -49,4 +58,4 @@
     right: 2em;
     top: 1.2em;
     text-decoration: none;
-}
+} */
