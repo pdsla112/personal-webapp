@@ -1,5 +1,7 @@
 #home-fourth-box {
     position: relative;
+    display: flex;
+    flex-direction: column;
     background-color: #9ecca4;
     height: auto;
     width: 74em;
@@ -7,7 +9,12 @@
     margin-right: auto;
     margin-top: 3em;
     margin-bottom: 15em;
-    padding-bottom: 5em;
+}
+
+.home-fourth-box-content-box {
+    display: flex;
+    flex-direction: row;
+    font-size: 1.2em;
 }
 
 .home-fourth-box-heading {
