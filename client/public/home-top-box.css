@@ -1,32 +1,45 @@
 #home-top-box {
     width: 74em;
     position: relative;
-    /* background-color: purple; */
+    display: flex;
+    flex-direction: row;
     background-color: #9ecca4;
-    padding-bottom: 10em;
     margin-left: auto;
     margin-right: auto;
     height: auto;
     top: 3.8em;
 }
 
+.home-top-box-right-box {
+    display: flex;
+    flex-direction: column;
+    margin-right: 1em;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 1em;
+}
+
 .home-top-box-heading {
-    position: absolute;
-    top: 3em;
-    margin-left: 36em;
     font-size: 1.2em;
 }
 
 .home-top-box-txt {
-    position: absolute;
-    /* top: 15em; */
-    /* right: 10em; */
-    /* display: inline-block; */
-    /* margin-left: 50em;
-    margin-top: 20em; */
     top: 7em;
-    margin-left: 36em;
-    width: 25em;
-    line-height: 2;  /* Recommended value is 1.6 */
+    line-height: 2;
     font-size: 1.2em;
+    margin-top: 2em;
+}
+
+
+@media only screen and (max-width: 1040px) {
+    .home-top-box-txt {
+        font-size: 1.8vw;
+    }
+}
+
+
+@media only screen and (max-width: 1190px) {
+    #home-top-box {
+        width: 100vw;
+    }
 }

@@ -6,7 +6,7 @@
     width: 74em;
     margin-left: auto;
     margin-right: auto;
-    top: 8em;
+    margin-top: 3em;
     height: auto;
 }
 
@@ -20,4 +20,15 @@
 
 .home-third-box-logo {
     position: absolute;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 1190px) {
+    #home-third-box {
+        width: 100vw;
+    }
 }

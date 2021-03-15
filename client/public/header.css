@@ -7,14 +7,7 @@
     top: 0;
 }
 
-#header-content-wrapper {
-    position: relative;
-    width: 100%;
-    height: 3.5em;
-    margin: 0;
-}
-
-/* .header-box-github-logo {
+.header-box-github-logo {
     position: absolute;
     width: 2em;
     left: 2em;
@@ -33,17 +26,16 @@
     width: 2em;
     left: 10em;
     top: 0.5em;
-} */
+}
 
 .header-box-title {
     position: absolute;
-    margin-left: auto;
-    margin-right: auto;
+    left: 40vw;
     font-family: Palatino, "Palatino Linotype";
     font-size: 4em;
     color: #bbbfca;
 }
-/* 
+
 .header-box-navlink-1 {
     position: absolute;
     color: #dddddd;
@@ -58,4 +50,19 @@
     right: 2em;
     top: 1.2em;
     text-decoration: none;
-} */
+}
+
+
+
+
+
+
+@media only screen and (max-width: 1410px) {
+    .header-box-navlink-1 {
+        display: none;
+    }
+    
+    .header-box-navlink-2 {
+        display: none;
+    }
+}

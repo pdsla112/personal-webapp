@@ -1,12 +1,11 @@
 #home-fourth-box {
     position: relative;
-    /* background-color: azure; */
     background-color: #9ecca4;
     height: auto;
     width: 74em;
     margin-left: auto;
     margin-right: auto;
-    top: 10em;
+    margin-top: 3em;
     margin-bottom: 15em;
     padding-bottom: 5em;
 }
@@ -21,4 +20,11 @@
 
 .home-fourth-box-txt {
     
+}
+
+
+@media only screen and (max-width: 1190px) {
+    #home-fourth-box {
+        width: 100vw;
+    }
 }

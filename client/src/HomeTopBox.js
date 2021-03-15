@@ -5,9 +5,10 @@ class HomeTopBox extends React.Component {
     render() {
         return (
             <div id="home-top-box">
-                <HomeCarousel/>
-                <h2 className="home-top-box-heading">MERN Fullstack Developer | Software Engineering Student</h2>
-                <p className="home-top-box-txt">
+                <HomeCarousel className="something"/>
+                <div className="home-top-box-right-box">
+                    <h2 className="home-top-box-heading">MERN Fullstack Developer | Software Engineering Student</h2>
+                    <p className="home-top-box-txt">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Cras scelerisque ligula nec libero lobortis, eu ultrices est finibus.
                     Pellentesque aliquet mi id urna condimentum tempus. Maecenas vestibulum eu tellus ac dictum.
@@ -19,7 +20,8 @@ class HomeTopBox extends React.Component {
                     In tincidunt ante nunc, at hendrerit felis hendrerit et.
                     Duis elementum sollicitudin velit, eu rhoncus elit consectetur vel.
                     Nunc molestie in sapien eu lobortis.
-                </p>
+                    </p>
+                </div>
             </div>
         );
     }

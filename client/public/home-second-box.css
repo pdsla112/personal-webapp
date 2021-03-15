@@ -3,26 +3,40 @@
     /* background-color: blue; */
     background-color: #9ecca4;
     width: 74em;
-    padding-bottom: 30em;
     /* margin-top: 100em; */
     height: auto;
-    top: 6em;
+    margin-top: 6em;
     margin-left: auto;
     margin-right: auto;
+    display: flex;
+    flex-direction: column;
 }
 
 .home-second-box-heading {
-    position: absolute;
-    top: 2em;
-    margin-left: 12em;
+    margin-top: 2em;
+    margin-right: auto;
+    margin-left: auto;
     font-size: 2em;
 }
 
 .home-second-box-txt {
-    position: absolute;
-    top: 10em;
+    margin-top: 1em;
     width: 50em;
     line-height: 2;
-    margin-left: 13em;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 3em;
+    font-size: 1.2em;
+}
 
+
+
+
+
+
+
+@media only screen and (max-width: 1190px) {
+    #home-second-box {
+        width: 100vw;
+    }
 }
