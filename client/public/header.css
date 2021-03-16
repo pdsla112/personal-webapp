@@ -36,6 +36,14 @@
     color: #bbbfca;
 }
 
+.header-box-home-navlink {
+    position: absolute;
+    color: #dddddd;
+    text-decoration: none;
+    top: 1.2em;
+    right: 32em;
+}
+
 .header-box-navlink-1 {
     position: absolute;
     color: #dddddd;
@@ -52,17 +60,25 @@
     text-decoration: none;
 }
 
+.navlink:hover {
+    color: #ffd66b;
+}
 
 
 
 
 
-@media only screen and (max-width: 1410px) {
+
+@media only screen and (max-width: 1530px) {
     .header-box-navlink-1 {
         display: none;
     }
     
     .header-box-navlink-2 {
+        display: none;
+    }
+
+    .header-box-home-navlink {
         display: none;
     }
 }

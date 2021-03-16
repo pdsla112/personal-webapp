@@ -66,6 +66,10 @@
     color: black;
 }
 
+.github-txt:hover {   
+    color: #dddddd;
+}
+
 .home-third-box-github-logo {
     width: 2.5em;
 }
@@ -77,18 +81,15 @@
     color: black;
 }
 
+.extra-content:hover {
+    color: #dddddd;
+}
+
 .home-third-box-content-box-subheading {
     margin-left: 5%;
     font-size: 1.5em;
     margin-top: 1em;
 }
-
-.home-third-box-subheading {
-}
-
-.home-third-box-logo {
-}
-
 
 
 
