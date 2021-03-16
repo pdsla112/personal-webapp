@@ -3,6 +3,7 @@ import {Switch, Route} from "react-router-dom";
 import Home from "./Home";
 import Ready from "./Ready";
 import Projects from "./Projects";
+import Story from "./Story";
 
 class App extends React.Component {
   render() {
@@ -17,6 +18,9 @@ class App extends React.Component {
           </Route>
           <Route exact path="/personal-projects">
             <Projects/>
+          </Route>
+          <Route exact path="/story-behind-app">
+            <Story/>
           </Route>
         </Switch>
       </div>

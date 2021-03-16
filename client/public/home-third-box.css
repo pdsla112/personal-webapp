@@ -1,4 +1,6 @@
 #home-third-box {
+    display: flex;
+    flex-direction: column;
     position: relative;
     /* background-color: pink; */
     background-color: #9ecca4;
@@ -10,16 +12,81 @@
     height: auto;
 }
 
+.home-third-box-subheading {
+    margin-left: 3em;
+    font-size: 1.4em;
+    margin-top: 1.5em;
+}
+
+.second-subheading {
+    margin-top: 3em;
+}
+
 .home-third-box-heading {
-    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 2em;
+    margin-top: 2em;
+}
+
+.home-third-box-content-box {
+    /* background-color: #ffd369; */
+    background-color: #ffd66b;
+    margin-top: 2em;
+    margin-left: 3em;
+    margin-right: 3em;
+    display: flex;
+    flex-direction: column;
+}
+
+.extra-content.last-element {
+    margin-bottom: 2em;
+}
+
+.last-element {
+    margin-bottom: 2em;
+}
+
+.third-box-last-element {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.github-box {
+    display: flex;
+    flex-direction: row;
+    margin-left: 15%;
+}
+
+.github-txt {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 1em;
+    text-decoration: none;
+    color: black;
+}
+
+.home-third-box-github-logo {
+    width: 2.5em;
+}
+
+.extra-content {
+    margin-left: 15%;
+    text-decoration: none;
+    margin-bottom: 1em;
+    color: black;
+}
+
+.home-third-box-content-box-subheading {
+    margin-left: 5%;
+    font-size: 1.5em;
+    margin-top: 1em;
 }
 
 .home-third-box-subheading {
-    position: absolute;
 }
 
 .home-third-box-logo {
-    position: absolute;
 }
 
 

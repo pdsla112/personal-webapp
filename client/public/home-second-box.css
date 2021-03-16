@@ -1,9 +1,7 @@
 #home-second-box {
     position: relative;
-    /* background-color: blue; */
     background-color: #9ecca4;
     width: 74em;
-    /* margin-top: 100em; */
     height: auto;
     margin-top: 6em;
     margin-left: auto;
@@ -23,10 +21,11 @@
     margin-top: 1em;
     width: 50em;
     line-height: 2;
-    margin-right: auto;
-    margin-left: auto;
+    margin-right: 5em;
+    margin-left: 6em;
     margin-bottom: 3em;
     font-size: 1.2em;
+    text-align: center;
 }
 
 
