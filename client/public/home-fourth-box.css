@@ -2,7 +2,8 @@
     position: relative;
     display: flex;
     flex-direction: column;
-    background-color: #9ecca4;
+    /* background-color: #9ecca4; */
+    background-color: #f1f6f9;
     height: auto;
     width: 74em;
     margin-left: auto;

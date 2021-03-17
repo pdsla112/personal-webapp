@@ -3,7 +3,8 @@
     position: relative;
     display: flex;
     flex-direction: row;
-    background-color: #9ecca4;
+    /* background-color: #9ecca4; */
+    background-color: #f1f6f9;
     margin-left: auto;
     margin-right: auto;
     height: auto;
