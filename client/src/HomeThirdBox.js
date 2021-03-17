@@ -19,7 +19,7 @@ class HomeThirdBox extends React.Component {
                                     <a href="https://github.com/pdsla112/personal-webapp" target="_blank" rel="noopener noreferrer"><img src={githubLogo} alt="Github Logo" className="home-third-box-github-logo"/></a>
                                 </div>
                                 <div className="first-box-demonstrations-box">
-                                    <h3>Skills Demonstrated:</h3>
+                                    <h3 className="demonstration-box-heading">Skills Demonstrated:</h3>
                                     <div className="demonstration-point">
                                         <p className="demonstration">Using Visual Studio Code IDE</p>
                                         <img src={tick} alt="tick" className="tick"/>
@@ -52,7 +52,7 @@ class HomeThirdBox extends React.Component {
                                 <a href="https://polar-cove-87626.herokuapp.com/" className="extra-content" target="_blank" rel="noopener noreferrer"><p>Click here to visit the website...</p></a>
                                 <NavLink to="/story-behind-app" className="extra-content last-element">View My Story Behind This App</NavLink>
                                 <div className="first-box-demonstrations-box">
-                                    <h3>Skills Demonstrated:</h3>
+                                    <h3 className="demonstration-box-heading">Skills Demonstrated:</h3>
                                     <div className="demonstration-point">
                                         <p className="demonstration">Using Visual Studio Code IDE</p>
                                         <img src={tick} alt="tick" className="tick"/>
@@ -86,7 +86,7 @@ class HomeThirdBox extends React.Component {
                                 <a href="https://github.com/pdsla112/algorithms-for-fun" target="_blank" rel="noopener noreferrer"><img src={githubLogo} alt="Github Logo" className="home-third-box-github-logo"/></a>
                             </div>
                             <div className="second-box-demonstrations-box">
-                                    <h3>Skills Demonstrated:</h3>
+                                    <h3 className="demonstration-box-heading">Skills Demonstrated:</h3>
                                     <div className="demonstration-point">
                                         <p className="demonstration">Using Visual Studio Code IDE</p>
                                         <img src={tick} alt="tick" className="tick"/>

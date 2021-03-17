@@ -108,7 +108,7 @@
     display: flex;
     flex-direction: row;
     margin-right: 1em;
-    margin-left: 1em;;
+    margin-left: 1em;
 }
 
 .github-txt {
@@ -131,6 +131,7 @@
 .extra-content {
     margin-left: 1em;
     margin-right: 1em;
+    margin-top: 1em;
     text-decoration: none;
     margin-bottom: 1em;
     color: black;
@@ -148,9 +149,29 @@
     margin-top: 1em;
 }
 
+.first-box-demonstrations-box {
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-top: 1em;
+}
+
+.second-box-demonstrations-box {
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-top: 2em;
+}
+
+.demonstration-box-heading {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1em;
+    font-weight: bold;
+}
+
 .demonstration-point {
     display: flex;
     flex-direction: row;
+    margin-bottom: 1em;
 }
 
 .tick {
