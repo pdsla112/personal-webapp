@@ -2,6 +2,8 @@ import React from "react";
 import githubLogo from "./images/github-logo.png";
 import { NavLink } from "react-router-dom";
 import tick from "./images/tick.png";
+import secondExample from "./images/second-example.png";
+import thirdExample from "./images/third-example.png";
 
 class HomeThirdBox extends React.Component {
     render() {
@@ -74,6 +76,7 @@ class HomeThirdBox extends React.Component {
                                         <img src={tick} alt="tick" className="tick"/>
                                     </div>
                                 </div>
+                                <img src={secondExample} alt="screenshot of REACH App" className="examples-1"/>
                             </div>
                         </div>
                     </div>
@@ -108,6 +111,7 @@ class HomeThirdBox extends React.Component {
                                         <img src={tick} alt="tick" className="tick"/>
                                     </div>
                                 </div>
+                            <img src={thirdExample} alt="screenshot of Algorithms-For-Fun on IntelliJ IDE" className="example-2"/>
                         </div>
                     </div>
                 </div>

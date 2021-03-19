@@ -8,7 +8,8 @@
     margin-left: auto;
     margin-right: auto;
     height: auto;
-    top: 3.8em;
+    /* top: 3.8em; */
+    margin-top: 5em;
 }
 
 .home-top-box-right-box {
