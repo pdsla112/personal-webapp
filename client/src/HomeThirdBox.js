@@ -12,7 +12,7 @@ class HomeThirdBox extends React.Component {
                 <h2 className="home-third-box-heading">My Projects</h2>
                 <div id="home-third-box-project-box">
                     <div id="home-third-box-project-box-first">
-                        <h3 className="home-third-box-subheading">Web Applications That I Developed</h3>
+                        <h3 className="home-third-box-subheading">WEB APPLICATIONS THAT I DEVELOPED</h3>
                         <div id="home-third-box-project-box-first-box">
                             <div className="home-third-box-project-box-first-box-first">
                                 <h4 className="home-third-box-content-box-subheading">This One!</h4>
@@ -82,7 +82,7 @@ class HomeThirdBox extends React.Component {
                     </div>
 
                     <div id="home-third-box-project-box-second">
-                        <h3 className="home-third-box-subheading">Other</h3>
+                        <h3 className="home-third-box-subheading">OTHER</h3>
                         <div className="home-third-box-project-box-second-box-first">
                             <div className="github-box third-box-last-element">
                                 <a href="https://github.com/pdsla112/algorithms-for-fun" className="github-txt" target="_blank" rel="noopener noreferrer"><p>A Java Github Repository That I Have for Learning Algorithms and Data Types</p></a>

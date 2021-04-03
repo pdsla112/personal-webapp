@@ -75,7 +75,7 @@
     display: flex;
     flex-direction: column;
     width: 50%;
-    box-shadow: 5px 20px 20px #888888;
+    box-shadow: 5px 20px 20px #435560;
 }
 
 .home-third-box-project-box-first-box-second {
@@ -88,7 +88,7 @@
     display: flex;
     flex-direction: column;
     width: 50%;
-    box-shadow: 5px 20px 20px #888888;
+    box-shadow: 5px 20px 20px #435560;
 }
 
 .home-third-box-project-box-second-box-first {
@@ -101,7 +101,7 @@
     display: flex;
     flex-direction: column;
     height: 100%;
-    box-shadow: 5px 20px 20px #888888;
+    box-shadow: 5px 20px 20px #435560;
 }
 
 .extra-content.last-element {
