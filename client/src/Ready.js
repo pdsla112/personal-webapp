@@ -12,6 +12,11 @@ import googleSoloImg from "./images/second-google-solo.jpg";
 import pinkSunriseImg from "./images/pink-sunrise.jpg";
 
 class Ready extends React.Component {
+
+    componentDidMount() {
+        window.scrollTo(0, 0)
+    }
+
     render() {
         return (
             <div className="ready-box">

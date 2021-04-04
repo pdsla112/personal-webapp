@@ -8,6 +8,11 @@ import HomeFourthBox from "./HomeFourthBox";
 import SkillsComponent from "./SkillsComponent";
 
 class Home extends React.Component {
+
+    componentDidMount() {
+        window.scrollTo(0, 0)
+    }
+    
     render() {
         return (
             <div className="home-box">

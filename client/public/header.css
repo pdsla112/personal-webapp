@@ -61,15 +61,11 @@
 
 
 
-@media only screen and (max-width: 1530px) {
+@media only screen and (max-width: 1330px) {
     .header-box-navlink-1 {
         display: none;
     }
     
-    .header-box-navlink-2 {
-        display: none;
-    }
-
     .header-box-home-navlink {
         display: none;
     }

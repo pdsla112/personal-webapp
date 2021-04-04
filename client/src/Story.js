@@ -7,6 +7,11 @@ import signupImg from "./images/signup.png";
 import deleteNewArticleImg from "./images/delete-new-article.png";
 
 class Story extends React.Component {
+
+    componentDidMount() {
+        window.scrollTo(0, 0)
+    }
+
     render() {
         return (
             <div id="reach-box">
