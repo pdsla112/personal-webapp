@@ -9,17 +9,14 @@ class HomeTopBox extends React.Component {
                 <div className="home-top-box-right-box">
                     <h2 className="home-top-box-heading">MERN Fullstack Developer | Software Engineering Student</h2>
                     <p className="home-top-box-txt">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Cras scelerisque ligula nec libero lobortis, eu ultrices est finibus.
-                    Pellentesque aliquet mi id urna condimentum tempus. Maecenas vestibulum eu tellus ac dictum.
-                    Aliquam auctor, velit in ullamcorper maximus, sem elit rutrum ipsum, sed tincidunt ante ante ut nibh.
-                    Donec placerat lectus at rutrum aliquam. Donec accumsan condimentum viverra. Suspendisse potenti.
-                    Aliquam erat volutpat. Nullam rhoncus nisi faucibus risus tincidunt, vitae imperdiet enim auctor.
-                    Cras ultricies pharetra mollis. Donec vitae bibendum lectus, in luctus sapien.
-                    Fusce porttitor tincidunt ante, ut accumsan arcu suscipit et.
-                    In tincidunt ante nunc, at hendrerit felis hendrerit et.
-                    Duis elementum sollicitudin velit, eu rhoncus elit consectetur vel.
-                    Nunc molestie in sapien eu lobortis.
+                        Welcome to my personal website!
+                        I developed this web application specifically for you to get to know me more hollistically.
+                        I really believe that people are not numbers and there are always stories behind the struggles that they have overcome.
+                        You can view my personal projects, as well as the reason why I believe that I am ready to reap the benefits of your opportunity to its fullest potential.
+                        I hope my personality successfully radiates out of this page onto you!
+                        Make sure to also check out my personal Github repository and my LinkedIn page. 
+                        Feel free to reach out to me through email or LinkedIn. 
+                        Enjoy!
                     </p>
                 </div>
             </div>

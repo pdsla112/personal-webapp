@@ -167,7 +167,7 @@ class Ready extends React.Component {
 
                         <p>
                         My path has led me here. 
-                        I am ready to soak in the valuable experiences that I will receive from Google, and take my journey to another level. 
+                        I am ready to soak in the valuable experiences that I will receive from you, and take my journey to another level. 
                         I am ready to work for you.
                         </p>
                         
