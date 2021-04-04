@@ -16,9 +16,6 @@ class App extends React.Component {
           <Route exact path="/why-i-am-ready">
             <Ready/>
           </Route>
-          <Route exact path="/personal-projects">
-            <Projects/>
-          </Route>
           <Route exact path="/story-behind-app">
             <Story/>
           </Route>

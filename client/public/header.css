@@ -41,18 +41,10 @@
     color: #dddddd;
     text-decoration: none;
     top: 1.2em;
-    right: 32em;
+    right: 22em;
 }
 
 .header-box-navlink-1 {
-    position: absolute;
-    color: #dddddd;
-    right: 12em;
-    top: 1.2em;
-    text-decoration: none;
-}
-
-.header-box-navlink-2 {
     position: absolute;
     color: #dddddd;
     right: 2em;

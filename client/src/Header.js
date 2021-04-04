@@ -14,7 +14,6 @@ class Header extends React.Component {
                 <NavLink to="/" className="header-box-home-navlink navlink">Home</NavLink>
                 <h1 className="header-box-title">PHILLIP LA</h1>
                 <NavLink to="/why-i-am-ready" className="header-box-navlink-1 navlink">Why I Am Prepared for Your Opportunity</NavLink>
-                <NavLink to="/personal-projects" className="header-box-navlink-2 navlink">Personal Projects</NavLink>
             </div>
         );
     }

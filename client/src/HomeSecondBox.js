@@ -1,9 +1,23 @@
 import React from "react";
+import { withRouter } from "react-router-dom";
 
 class HomeSecondBox extends React.Component {
+
+    constructor(props) {
+        super(props);
+        this.handleClick = this.handleClick.bind(this);
+    }
+
+    handleClick(evt) {
+        evt.preventDefault();
+        this.props.history.push({
+            pathname: "/why-i-am-ready",
+        });
+    }
+
     render() {
         return (
-            <div id="home-second-box">
+            <div id="home-second-box" onClick={this.handleClick} title="Click to read the rest of why I am ready for your opportunity...">
                 <h2 className="home-second-box-heading">Why I Am Ready to Work for You</h2>
                 <p className="home-second-box-txt"> 
                 Growing up as the youngest child in a Korean-Australian family of my two hard-working parents and three older sisters comes with its unusual perks and challenges. 
@@ -17,4 +31,4 @@ class HomeSecondBox extends React.Component {
     }
 }
 
-export default HomeSecondBox;
+export default withRouter(HomeSecondBox);

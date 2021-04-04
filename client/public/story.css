@@ -1,0 +1,58 @@
+.reach-box-txt-box {
+    width: 60em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7em;
+    margin-bottom: 15em;
+    line-height: 1.4;
+    display: flex;
+    flex-direction: column;
+}
+
+.reach-box-heading {
+    font-size: 2em;
+    margin-top: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1em;
+}
+
+.reach-box-txt {
+    font-size: 1.3em;
+}
+
+.reach-box-directions {
+    font-weight: bold;
+    margin-top: 2em;
+    text-align: center;
+    font-size: 1.3em;
+}
+
+.reach-box-warning {
+    font-size: 1.3em;
+    font-weight: bold;
+    margin-top: 5em;
+    margin-bottom: 4em;
+    text-align: center;
+}
+
+.reach-box-img-duplex-left {
+    width: 49.5%;
+    float: left;
+    margin-left: 2px;
+}
+
+.reach-box-img-duplex-right {
+    width: 49.5%;
+    float: right;
+}
+
+.reach-box-images-box-1 {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.reach-box-images-box-2 {
+    margin-top: 2em;
+    margin-bottom: 10em;
+}

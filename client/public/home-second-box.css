@@ -9,6 +9,7 @@
     margin-right: auto;
     display: flex;
     flex-direction: column;
+    cursor: pointer;
 }
 
 .home-second-box-heading {
