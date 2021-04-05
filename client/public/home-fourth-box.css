@@ -66,8 +66,20 @@
     margin-bottom: 2em;
 }
 
-@media only screen and (max-width: 1190px) {
+@media only screen and (max-width: 1020px) {
     #home-fourth-box {
         width: 100vw;
+    }
+
+    .home-fourth-box-heading {
+        font-size: 4vw;
+    }
+
+    .home-fourth-box-subheading {
+        font-size: 3vw;
+    }
+
+    .home-fourth-box-txt {
+        font-size: 1.8vw;
     }
 }

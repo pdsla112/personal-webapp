@@ -213,8 +213,17 @@
 
 
 
-@media only screen and (max-width: 1190px) {
+@media only screen and (max-width: 1020px) {
     #home-third-box {
         width: 100vw;
+        font-size: 1.8vw;
+    }
+
+    .home-third-box-heading {
+        font-size: 4vw;
+    }
+
+    .home-third-box-subheading {
+        font-size: 3vw;
     }
 }

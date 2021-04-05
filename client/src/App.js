@@ -2,7 +2,6 @@ import React from "react";
 import {Switch, Route} from "react-router-dom";
 import Home from "./Home";
 import Ready from "./Ready";
-import Projects from "./Projects";
 import Story from "./Story";
 
 class App extends React.Component {

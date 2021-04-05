@@ -56,3 +56,16 @@
     margin-top: 2em;
     margin-bottom: 10em;
 }
+
+
+
+@media only screen and (max-width: 980px) {
+    .reach-box-txt-box {
+        width: 100vw;
+    }
+
+    .reach-box-txt {
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+}

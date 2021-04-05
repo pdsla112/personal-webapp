@@ -69,3 +69,18 @@
     margin-top: 1em;
     margin-bottom: 2em;
 }
+
+
+
+
+
+
+@media only screen and (max-width: 1185px) {
+    #ready-box-wrapper {
+        width: 100vw;
+    }
+
+    .ready-box-title {
+        font-size: 4vw;
+    }
+}

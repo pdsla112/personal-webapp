@@ -56,11 +56,11 @@ class HomeThirdBox extends React.Component {
                                 <div className="first-box-demonstrations-box">
                                     <h3 className="demonstration-box-heading">Skills Demonstrated:</h3>
                                     <div className="demonstration-point">
-                                        <p className="demonstration">Using Visual Studio Code IDE</p>
+                                        <p className="demonstration">Connecting a front-end with a cloud-based server and database.</p>
                                         <img src={tick} alt="tick" className="tick"/>
                                     </div>
                                     <div className="demonstration-point">
-                                        <p className="demonstration">Downloading npm packages</p>
+                                        <p className="demonstration">Downloading and using separate npm packages</p>
                                         <img src={tick} alt="tick" className="tick"/>
                                     </div>
                                     <div className="demonstration-point">
@@ -91,23 +91,23 @@ class HomeThirdBox extends React.Component {
                             <div className="second-box-demonstrations-box">
                                     <h3 className="demonstration-box-heading">Skills Demonstrated:</h3>
                                     <div className="demonstration-point">
-                                        <p className="demonstration">Using Visual Studio Code IDE</p>
+                                        <p className="demonstration">Using IntelliJ IDE</p>
                                         <img src={tick} alt="tick" className="tick"/>
                                     </div>
                                     <div className="demonstration-point">
-                                        <p className="demonstration">Downloading npm packages</p>
+                                        <p className="demonstration">Implementing algorithms such as breadth-first search.</p>
                                         <img src={tick} alt="tick" className="tick"/>
                                     </div>
                                     <div className="demonstration-point">
-                                        <p className="demonstration">Practise good UX design</p>
+                                        <p className="demonstration">Practising object-oriented thinking of abstract concepts.</p>
                                         <img src={tick} alt="tick" className="tick"/>
                                     </div>
                                     <div className="demonstration-point">
-                                        <p className="demonstration">Upload web app to heroku cloud server</p>
+                                        <p className="demonstration">Implementing various data types such as BST.</p>
                                         <img src={tick} alt="tick" className="tick"/>
                                     </div>
                                     <div className="demonstration-point">
-                                        <p className="demonstration">Aesthetically pleasing design</p>
+                                        <p className="demonstration">Self learning and practising asking on forums such as StackOverflow.</p>
                                         <img src={tick} alt="tick" className="tick"/>
                                     </div>
                                 </div>
